@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3" type="plugin" group="content">
+        <name>Article Requires Tag</name>
+        <author>Pieter Groeneweg</author>
+        <creationDate>November 2018</creationDate>
+        <copyright>bizgo.nl</copyright>
+        <license>GNU General Public License</license>
+        <authorEmail>info@bizgo.nl</authorEmail>
+        <authorUrl>https://bizgo.nl</authorUrl>
+        <version>1.0</version>
+        <description>Select categories that requires a TAG</description>
+        <files>
+                <filename plugin="require_tag">require_tag.php</filename>
+                <filename>index.html</filename>
+        </files>
+		<config>
+			<fields name="params">
+				<fieldset name="basic">
+					<field
+						name="categories"
+						label="JCATEGORIES"
+						type="category"
+						extension="com_content"
+						multiple="true"
+						filter="uint"
+					/>
+				</fieldset>
+			</fields>
+		</config>
+</extension>
