@@ -11,6 +11,9 @@ However, maintening this from the admin would not be possible. Some plugin techn
 Big thanks to SharkyKZ who pointed us into the direction of some plugin technology.
 
 ## How it works
+
+Note! This plugin only is tested on ISIS admin template.
+
 1. Install the plugin as with any other extension
 2. The required categories are set in the plugin settings. Enable plugin.
 3. Upon creation or editing of an article the plugin checks for the articles category if on the list of categories that require a TAG
