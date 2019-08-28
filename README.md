@@ -6,7 +6,7 @@ https://forum.joomla.org/viewtopic.php?f=706&t=967272
 ## How to force setting one or more tags to an article of a certain category.
 
 At first I figured to do this in an override just adding some jQuery styling and attribution dynamically. 
-However, maintening this from the admin would not be possible. Some plugin technology would be required.
+However, configuring this from the admin would then not be possible. Some plugin technology would be required.
 
 Big thanks to SharkyKZ who pointed us into the direction of some plugin technology.
 
